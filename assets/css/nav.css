@@ -1,0 +1,29 @@
+nav
+{
+  padding-block: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul
+{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-block: 8px;
+}
+
+nav ul li a svg path:hover
+{
+  width: 200px;
+  fill: var(--brand-color);
+}
+
+nav ul li:last-child img
+{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+} 

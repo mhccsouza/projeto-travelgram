@@ -26,6 +26,13 @@
 a
 {
   text-decoration: none;
+  color: inherit;
+}
+
+a:hover
+{
+  text-decoration: underline;
+  color: var(--brand-color);
 }
 
 ul
@@ -38,4 +45,16 @@ body
   background-color: var(--background-color);
   font: var(--font);
   color: var(--text-color-secondary);
+}
+
+.container
+{
+  padding-inline: 32px;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.bg-surface-color
+{
+  background-color: var(--surface-color);
 }
