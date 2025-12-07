@@ -1,0 +1,13 @@
+footer
+{
+  padding-block: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer ul
+{
+  display: flex;
+  gap: 16px;
+}
