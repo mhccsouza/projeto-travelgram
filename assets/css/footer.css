@@ -4,10 +4,13 @@ footer
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  font: var(--font-sm);
 }
 
 footer ul
 {
   display: flex;
-  gap: 16px;
+  gap: 20px;
+  padding-block: 6.5px;
 }
